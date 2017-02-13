@@ -1,6 +1,8 @@
 Marty McFly Unit - Time Travel Test Runner
 =====================================
 
+[![Demo](https://rphansen91.github.io/marty-mcfly-unit/dist/demo.gif)](https://rphansen91.github.io/marty-mcfly-unit/)
+
 [Github](https://github.com/rphansen91/marty-mcfly-unit)
 [Demo](https://rphansen91.github.io/marty-mcfly-unit/)
 

@@ -23,7 +23,7 @@ p {
   line-height: 1em;
   background-color: black;
   color: #fff;
-  padding: 0.4em;
+  padding: 1em;
 }
 
 .testsContainer {
@@ -31,17 +31,13 @@ p {
 }
 
 .testResult {
+  position: relative;
   margin: 1em;
   padding: 1em;
   opacity: 1;
   transition: opacity 0.3s ease-in;
   cursor: pointer;
 }
-
-.testResult:hover {
-  opacity: 0.8;
-}
-
 .pending {
   background-color: transparent;
   color: black;
@@ -54,7 +50,37 @@ p {
   background-color: red;
   color: #fff;
 }
+.failure:hover {
+  opacity: 0.8;
+}
 .success {
   background-color: green;
   color: #fff;
+}
+.success:hover {
+  opacity: 0.8;
+}
+
+.pending:after {
+  position: absolute;
+  content: '\25B6';
+  top: 0;
+  bottom: 0;
+  right: 1em;
+  height: 1em;
+  width: 1em;
+  line-height: 1em;
+  margin: auto;
+}
+
+.success:after, .failure:after {
+  position: absolute;
+  content: '\21BB';
+  top: 0;
+  bottom: 0;
+  right: 1em;
+  height: 1em;
+  width: 1em;
+  line-height: 1em;
+  margin: auto;
 }
