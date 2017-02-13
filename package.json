@@ -1,0 +1,24 @@
+{
+  "name": "marty-mcfly-unit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/main.js",
+  "scripts": {
+    "build": "browserify ./src/main.js > ./dist/main.js -t reactify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.2",
+    "reactify": "^1.1.1",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "redux-devtools": "^3.3.2",
+    "redux-logger": "^2.8.1"
+  }
+}

@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-size: 16px;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+.logo {
+  vertical-align: middle;
+  float: right;
+  /* display: none; */
+}
+
+.statsContainer {
+  position: relative;
+  font-size: 1.4em;
+  line-height: 1em;
+  background-color: black;
+  color: #fff;
+  padding: 0.4em;
+}
+
+.testsContainer {
+  margin: 0.4em;
+}
+
+.testResult {
+  margin: 1em;
+  padding: 0.2em 0.4em;
+}
+
+.pending {
+  background-color: transparent;
+  color: black;
+}
+.testing {
+  background-color: yellow;
+  color: black;
+}
+.failure {
+  background-color: red;
+  color: #fff;
+}
+.success {
+  background-color: green;
+  color: #fff;
+}
