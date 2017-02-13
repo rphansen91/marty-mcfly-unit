@@ -15,7 +15,7 @@ Installation
 ------------
 
 ```
-npm install heap-grid
+npm install marty-mcfly-unit
 ```
 
 Usage
